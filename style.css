@@ -1,0 +1,59 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.clockbody{
+     width: 500px;
+    height:500px;
+    border : 20px solid #152;
+    border-radius: 50%;
+    margin: 0  auto;
+    position : relative;
+}
+.center{
+    width: 10px;
+    height:10px;
+    background-color: black;
+    border-radius:50%; 
+    position : absolute;
+    top:240px;
+    left:240px;
+
+}
+.time-hand{
+    position:relative;
+}
+.time-hand .hand{
+    position: absolute;
+    background-color: red;
+    width:4px;
+    height:220px;
+    right:3px;
+    transform-origin: bottom;
+    top: -215.5px;
+
+}
+.time-hand .hand2{
+    position: absolute;
+    background-color: blueviolet;
+    width:4px;
+    height:190px;
+    right:3px;
+    bottom: -5px;
+    transform-origin: bottom;
+
+}
+.time-hand .hand3{
+    position: absolute;
+    background-color: orange;
+    width:4px;
+    height:150px;
+    right:3px;
+    bottom: -5px;
+    transform-origin: bottom;
+
+}
+
+
+
+
+
